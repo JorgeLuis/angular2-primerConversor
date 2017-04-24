@@ -1,0 +1,21 @@
+<h1>
+  Conversor <small>Angular</small></h1>
+
+<form>
+  
+    <label>Millas</label>
+
+    <input [(ngModel)]="millas" name="something"  (keyup)="convertir()" >
+    <!-- <input id="pp" placeholder="Ingrese millas a convertir" [(ngModel)]= "millas2">--> 
+    <!--<input placeholder="Ingrese millas a convertir" [(value)]= "millas">-->
+  
+  
+    <button type="button" class="btn btn-primary"   (click)="convertir()" >Convertir</button>
+  
+  
+    <label>Kilometros</label>
+    <span>​{{kilometros}}​</span>
+    <br>
+    <span>​{{millas }}​</span>
+  
+</form>

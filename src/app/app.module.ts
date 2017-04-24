@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ConversorSimpleComponent } from './conversor-simple/conversor-simple.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConversorSimpleComponent
   ],
   imports: [
     BrowserModule,
